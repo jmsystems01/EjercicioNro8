@@ -1,0 +1,27 @@
+/***
+ *
+ *
+ *
+ **/
+td {
+    text-align: center;
+}
+td.not-current {
+    color: grey;
+    background-color: grey;
+}
+
+td.weekEnd {
+    background-color: yellow;
+    color: darkslategrey;
+}
+td.workDay {
+    background-color: darkseagreen;
+
+}
+.calendar {
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
